@@ -71,6 +71,11 @@ const std::string default_stat_prefix = "istio";
   FIELD_FUNC(source_workload_namespace)      \
   FIELD_FUNC(source_principal)               \
   FIELD_FUNC(source_app)                     \
+  FIELD_FUNC(source_pod)                     \
+  FIELD_FUNC(destination_pod)                \
+  FIELD_FUNC(request_path)                   \
+  FIELD_FUNC(request_method)                 \
+  FIELD_FUNC(request_url_path)               \
   FIELD_FUNC(source_version)                 \
   FIELD_FUNC(source_canonical_service)       \
   FIELD_FUNC(source_canonical_revision)      \

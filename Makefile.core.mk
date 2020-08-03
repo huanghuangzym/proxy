@@ -49,8 +49,8 @@ endif
 
 UNAME := $(shell uname)
 ifeq ($(UNAME),Linux)
-BAZEL_CONFIG_DEV  = $(BAZEL_CONFIG)
-BAZEL_CONFIG_REL  = $(BAZEL_CONFIG) --config=release
+BAZEL_CONFIG_DEV  = --config=release
+BAZEL_CONFIG_REL  = --config=release
 BAZEL_CONFIG_ASAN = $(BAZEL_CONFIG) --config=clang-asan
 BAZEL_CONFIG_TSAN = $(BAZEL_CONFIG) --config=clang-tsan
 endif
@@ -65,7 +65,7 @@ BAZEL_OUTPUT_PATH = $(shell bazel info $(BAZEL_BUILD_ARGS) output_path)
 BAZEL_ENVOY_PATH ?= $(BAZEL_OUTPUT_PATH)/k8-fastbuild/bin/src/envoy/envoy
 
 build:
-	export PATH=$(PATH) CC=$(CC) CXX=$(CXX) && bazel $(BAZEL_STARTUP_ARGS) build $(BAZEL_BUILD_ARGS) $(BAZEL_CONFIG_DEV) $(BAZEL_TARGETS)
+	export PATH=$(PATH) CC=$(CC) CXX=$(CXX) && bazel $(BAZEL_STARTUP_ARGS) build $(BAZEL_BUILD_ARGS) $(BAZEL_CONFIG_DEV) //src/envoy:envoy
 
 build_envoy:
 	export PATH=$(PATH) CC=$(CC) CXX=$(CXX) && bazel $(BAZEL_STARTUP_ARGS) build $(BAZEL_BUILD_ARGS) $(BAZEL_CONFIG_REL) //src/envoy:envoy
@@ -79,10 +79,10 @@ build_envoy_asan:
 # Implicitly depends on build, but does not require a specific configuration
 .PHONY: wasm_include
 wasm_include:
-	cp -f $$(bazel info bazel-bin $(BAZEL_BUILD_ARGS))/extensions/common/node_info_generated.h $(TOP)/extensions/common/
-	cp -f $$(bazel info bazel-bin $(BAZEL_BUILD_ARGS))/extensions/common/node_info_bfbs_generated.h $(TOP)/extensions/common/
-	cp -f $$(bazel info bazel-bin $(BAZEL_BUILD_ARGS))/extensions/common/nlohmann_json.hpp $(TOP)/extensions/common/
-	cp -fLR $$(bazel info bazel-bin $(BAZEL_BUILD_ARGS))/external/com_github_google_flatbuffers/_virtual_includes/runtime_cc/flatbuffers $(TOP)/extensions/common/
+	cp -f /root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/execroot/io_istio_proxy/bazel-out/k8-opt/bin/extensions/common/node_info_generated.h $(TOP)/extensions/common/
+	cp -f /root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/execroot/io_istio_proxy/bazel-out/k8-opt/bin/extensions/common/node_info_bfbs_generated.h $(TOP)/extensions/common/
+	cp -f /root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/execroot/io_istio_proxy/bazel-out/k8-opt/bin/extensions/common/nlohmann_json.hpp $(TOP)/extensions/common/
+	cp -fLR /root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/execroot/io_istio_proxy/bazel-out/k8-opt/bin/external/com_github_google_flatbuffers/_virtual_includes/runtime_cc/flatbuffers $(TOP)/extensions/common/
 	cp -f $$(bazel info output_base $(BAZEL_BUILD_ARGS))/external/envoy/api/wasm/cpp/contrib/proxy_expr.h $(TOP)/extensions/common/
 
 build_wasm: wasm_include

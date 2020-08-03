@@ -63,6 +63,7 @@ void map_node(IstioDimensions& instance, bool is_source,
   if (is_source) {
     FB_ASSIGN(source_workload, node.workload_name());
     FB_ASSIGN(source_workload_namespace, node.namespace_());
+    FB_ASSIGN(source_pod, node.name());
 
     auto source_labels = node.labels();
     if (source_labels) {
@@ -96,6 +97,7 @@ void map_node(IstioDimensions& instance, bool is_source,
   } else {
     FB_ASSIGN(destination_workload, node.workload_name());
     FB_ASSIGN(destination_workload_namespace, node.namespace_());
+    FB_ASSIGN(destination_pod, node.name());
 
     auto destination_labels = node.labels();
     if (destination_labels) {
@@ -158,6 +160,9 @@ void map_request(IstioDimensions& instance,
   instance[destination_service_name] = request.destination_service_name;
   instance[request_protocol] = request.request_protocol;
   instance[response_code] = std::to_string(request.response_code);
+  instance[request_path] = request.request_url_path;
+  instance[request_url_path] = request.request_url_path;
+  instance[request_method] = request.request_operation;
   instance[response_flags] = request.response_flag;
   instance[connection_security_policy] = absl::AsciiStrToLower(std::string(
       ::Wasm::Common::AuthenticationPolicyString(request.service_auth_policy)));

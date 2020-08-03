@@ -4,6 +4,8 @@ docker/envoy
 *.iml
 *.swp
 *.test
+cmake*
+CMake*
 /artifacts
 clang.bazelrc
 user.bazelrc
