@@ -61,6 +61,7 @@ const std::set<std::string> kGrpcContentTypes{
 const std::set<std::string> kDefaultLabels{
     "app",
     "version",
+    "msname",
     "service.istio.io/canonical-name",
     "service.istio.io/canonical-revision",
 };

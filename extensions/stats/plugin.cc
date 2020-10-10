@@ -71,6 +71,10 @@ void map_node(IstioDimensions& instance, bool is_source,
       auto app = app_iter ? app_iter->value() : nullptr;
       FB_ASSIGN(source_app, app);
 
+      auto msname_iter = source_labels->LookupByKey("msname");
+      auto msname = msname_iter ? msname_iter->value() : nullptr;
+      FB_ASSIGN(source_msname, msname);
+
       auto version_iter = source_labels->LookupByKey("version");
       auto version = version_iter ? version_iter->value() : nullptr;
       FB_ASSIGN(source_version, version);
@@ -90,6 +94,7 @@ void map_node(IstioDimensions& instance, bool is_source,
       }
     } else {
       instance[source_app] = "";
+      instance[source_msname] = "";
       instance[source_version] = "";
       instance[source_canonical_service] = "";
       instance[source_canonical_revision] = ::Wasm::Common::kLatest.data();
@@ -104,6 +109,10 @@ void map_node(IstioDimensions& instance, bool is_source,
       auto app_iter = destination_labels->LookupByKey("app");
       auto app = app_iter ? app_iter->value() : nullptr;
       FB_ASSIGN(destination_app, app);
+
+      auto msname_iter = destination_labels->LookupByKey("msname");
+      auto msname = msname_iter ? msname_iter->value() : nullptr;
+      FB_ASSIGN(destination_msname, msname);
 
       auto version_iter = destination_labels->LookupByKey("version");
       auto version = version_iter ? version_iter->value() : nullptr;
@@ -125,6 +134,7 @@ void map_node(IstioDimensions& instance, bool is_source,
       }
     } else {
       instance[destination_app] = "";
+      instance[destination_msname] = "";
       instance[destination_version] = "";
       instance[destination_canonical_service] = "";
       instance[destination_canonical_revision] = ::Wasm::Common::kLatest.data();
