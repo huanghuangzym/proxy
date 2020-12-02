@@ -40,7 +40,7 @@ bind(
 # commit date: 06/30/2020
 # Used by scripts/generate-wasm.sh
 
-ENVOY_SHA = "7f7223e03e4fe617d422a7002998396b5a71bfda"
+ENVOY_SHA = "4b2b6f1f362d83ad531174694c8cf87d67be8d5c"
 
 ENVOY_SHA256 = "29963344480d2da1797b3e18f15e97f873b74e0f2ef100704a2ec63f2ea806a4"
 
