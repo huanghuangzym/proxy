@@ -40,11 +40,12 @@ bind(
 # commit date: 06/30/2020
 # Used by scripts/generate-wasm.sh
 
-ENVOY_SHA = "4b2b6f1f362d83ad531174694c8cf87d67be8d5c"
+ENVOY_SHA = "ab1d05e6889fab4694b77191a1a5dd4014a25825"
 
 ENVOY_SHA256 = "29963344480d2da1797b3e18f15e97f873b74e0f2ef100704a2ec63f2ea806a4"
 
-ENVOY_ORG = "huanghuangzym"
+#ENVOY_ORG = "micro-service"
+ENVOY_ORG = "alauda-servicemesh"
 
 ENVOY_REPO = "envoy"
 
@@ -59,11 +60,14 @@ ENVOY_REPO = "envoy"
 #)
 
 
+# https://gitlab-ce.alauda.cn/micro-service/envoy/-/archive/4b2b6f1f362d83ad531174694c8cf87d67be8d5c/envoy-4b2b6f1f362d83ad531174694c8cf87d67be8d5c.tar.gz
 http_archive(
     name = "envoy",
    # sha256 = ENVOY_SHA256,
     strip_prefix = ENVOY_REPO + "-" + ENVOY_SHA,
-    url = "https://github.com/" + ENVOY_ORG + "/" + ENVOY_REPO + "/archive/" + ENVOY_SHA + ".tar.gz",
+	url = "https://github.com/" + ENVOY_ORG + "/" + ENVOY_REPO + "/archive/" + ENVOY_SHA + ".tar.gz",
+#    url = "https://gitlab-ce.alauda.cn/" + ENVOY_ORG + "/" + ENVOY_REPO + "/-/archive/" + ENVOY_SHA + "/envoy-" + ENVOY_SHA + ".tar.gz",
+#	auth_patterns = {"gitlab-ce.alauda.cn": "Bearer <password>"},
 )
 
 

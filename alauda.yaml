@@ -1,0 +1,34 @@
+steps:
+- name: "test docker config"
+  container: "tools"
+  commands:
+  - ls -la /root/.docker
+  - docker buildx ls
+  - docker buildx use arrm
+- name: Build
+  parallel:
+  - name: envoy
+    container: clang
+    commands:
+    - "make build"
+    - "ls -lh bazel-bin/src/envoy/envoy"
+    - "file bazel-bin/src/envoy/envoy"
+    - "mkdir -p ./usr/local/bin/"
+    - "cp  bazel-bin/src/envoy/envoy ./usr/local/bin/envoy"
+    - "tar -zcvf envoy.tar.gz ./usr"
+    - "ls -lh envoy.tar.gz"
+- name: envoy binary Upload
+  container: tools
+  groovy:
+  - |+
+      archiveArtifacts allowEmptyArchive: true, artifacts: 'envoy.tar.gz'                   
+      withCredentials([usernamePassword(credentialsId: deploy.getAlaudaCredentialID('devops-nexus'), passwordVariable: 'PASS', usernameVariable: 'USER')]) {
+        sh label: "upload envoy linux x86 binary commit id ${env.COMMIT_ID}", script: "curl -k --fail --progress -v -u ${USER}:${PASS} -H 'Content-type: application/x-executable' --upload-file ./envoy.tar.gz https://nexus-b.alauda.cn/repository/asm/envoy/${env.COMMIT_ID}/amd64/envoy.tar.gz"
+      }
+post:
+  always:
+  - name: "Clean docker files"
+    container: clang
+    commands:
+    - rm -rf /var/lib/docker/*
+
