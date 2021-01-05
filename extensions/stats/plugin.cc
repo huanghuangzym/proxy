@@ -170,8 +170,6 @@ void map_request(IstioDimensions& instance,
   instance[destination_service_name] = request.destination_service_name;
   instance[request_protocol] = request.request_protocol;
   instance[response_code] = std::to_string(request.response_code);
-  instance[request_path] = request.request_url_path;
-  instance[request_url_path] = request.request_url_path;
   instance[request_method] = request.request_operation;
   instance[response_flags] = request.response_flag;
   instance[connection_security_policy] = absl::AsciiStrToLower(std::string(
