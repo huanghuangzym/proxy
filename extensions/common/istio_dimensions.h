@@ -32,6 +32,7 @@ namespace Common {
   FIELD_FUNC(source_workload_namespace)      \
   FIELD_FUNC(source_principal)               \
   FIELD_FUNC(source_app)                     \
+  FIELD_FUNC(source_msname)                  \
   FIELD_FUNC(source_version)                 \
   FIELD_FUNC(source_canonical_service)       \
   FIELD_FUNC(source_canonical_revision)      \
@@ -39,6 +40,7 @@ namespace Common {
   FIELD_FUNC(destination_workload_namespace) \
   FIELD_FUNC(destination_principal)          \
   FIELD_FUNC(destination_app)                \
+  FIELD_FUNC(destination_msname)             \
   FIELD_FUNC(destination_version)            \
   FIELD_FUNC(destination_service)            \
   FIELD_FUNC(destination_service_name)       \

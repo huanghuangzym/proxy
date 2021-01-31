@@ -92,6 +92,12 @@ Logger::Logger(const ::Wasm::Common::FlatNode& local_node_info,
       (*label_map)["destination_app"] =
           flatbuffers::GetString(app_iter->value());
     }
+
+    auto msname_iter = local_labels->LookupByKey("msname");
+    if (msname_iter) {
+        (*label_map)["destination_msname"] =
+                flatbuffers::GetString(msname_iter->value());
+    }
     auto ics_iter = local_labels->LookupByKey(
         Wasm::Common::kCanonicalServiceLabelName.data());
     if (ics_iter) {
@@ -138,6 +144,11 @@ void Logger::addLogEntry(const ::Wasm::Common::RequestInfo& request_info,
     if (app_iter) {
       (*label_map)["source_app"] = flatbuffers::GetString(app_iter->value());
     }
+    auto msname_iter = peer_labels->LookupByKey("msname");
+    if (msname_iter) {
+        (*label_map)["source_msname"] = flatbuffers::GetString(msname_iter->value());
+    }
+
     auto ics_iter = peer_labels->LookupByKey(
         Wasm::Common::kCanonicalServiceLabelName.data());
     if (ics_iter) {
