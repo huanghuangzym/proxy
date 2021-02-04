@@ -63,7 +63,6 @@ void map_node(IstioDimensions& instance, bool is_source,
   if (is_source) {
     FB_ASSIGN(source_workload, node.workload_name());
     FB_ASSIGN(source_workload_namespace, node.namespace_());
-    FB_ASSIGN(source_pod, node.name());
 
     auto source_labels = node.labels();
     if (source_labels) {
@@ -102,7 +101,6 @@ void map_node(IstioDimensions& instance, bool is_source,
   } else {
     FB_ASSIGN(destination_workload, node.workload_name());
     FB_ASSIGN(destination_workload_namespace, node.namespace_());
-    FB_ASSIGN(destination_pod, node.name());
 
     auto destination_labels = node.labels();
     if (destination_labels) {
