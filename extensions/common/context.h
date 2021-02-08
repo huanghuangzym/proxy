@@ -142,6 +142,10 @@ struct RequestInfo {
   std::string b3_span_id;
   bool b3_trace_sampled = false;
 
+  // Spring Cloud Headers.
+  std::string client_name;
+  std::string client_namespace;
+
   // HTTP URL related attributes.
   std::string url_path;
   std::string url_host;

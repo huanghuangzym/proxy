@@ -174,6 +174,22 @@ void map_request(IstioDimensions& instance,
       ::Wasm::Common::AuthenticationPolicyString(request.service_auth_policy)));
 }
 
+void fill_spring_cloud_dimension(IstioDimensions& instance,
+                                 int32_t key,
+                                 std::string val) {
+  if ((instance[key] == "" || instance[key] == unknown) && val != "") {
+    instance[key] = val;
+  }
+}
+
+// maps from request context to dimensions.
+// for spring cloud visits istio mesh
+void map_spring_cloud(IstioDimensions& instance,
+                 const ::Wasm::Common::RequestInfo& request) {
+  fill_spring_cloud_dimension(instance, source_msname, request.client_name);
+  fill_spring_cloud_dimension(instance, source_workload_namespace, request.client_namespace);
+}
+
 // maps peer_node and request to dimensions.
 void map(IstioDimensions& instance, bool outbound,
          const ::Wasm::Common::FlatNode& peer_node,
@@ -185,6 +201,9 @@ void map(IstioDimensions& instance, bool outbound,
     instance[grpc_response_status] = std::to_string(request.grpc_status);
   } else {
     instance[grpc_response_status] = "";
+  }
+  if (request.request_protocol != "grpc" && !outbound) {
+    map_spring_cloud(instance, request);
   }
 }
 

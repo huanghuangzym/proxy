@@ -167,6 +167,10 @@ void populateRequestInfo(bool outbound, bool use_host_header_fallback,
              &request_info->destination_principal);
     getValue({"connection", "uri_san_peer_certificate"},
              &request_info->source_principal);
+
+    // spring clound headers
+    getValue({"request", "headers", "x-client-name"}, &request_info->client_name);
+    getValue({"request", "headers", "x-client-namespace"}, &request_info->client_namespace);
   }
 
   uint64_t response_flags = 0;
