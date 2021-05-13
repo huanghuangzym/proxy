@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="istio-proxy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gocode/code/src/istio.io/proxy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gocode/code/src/istio.io/proxy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="istio-proxy">
+				<Option output="/home/gocode/code/src/istio.io/proxy/cmake-build-debug/istio-proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gocode/code/src/istio.io/proxy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNULL_PLUGIN"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/."/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./extensions"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/bazel-out/k8-fastbuild/bin/external/envoy"/>
+					<Add directory="/root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/external/proxy_wasm_cpp_host"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/source"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/api/wasm/cpp"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/boringssl/src/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_gabime_spdlog/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_c_ares_c_ares"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_absl"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_cel_cpp"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_protobuf/src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_fmtlib_fmt/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_eile_tclap/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_grpc_grpc/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_envoyproxy_protoc_gen_validate"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_tencent_rapidjson/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_datadog_dd_opentracing_cpp/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_libevent_libevent/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_mirror_tclap/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_grpc_grpc"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_circonus_labs_libcircllhist/src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_nodejs_http_parser"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_nghttp2_nghttp2/lib/includes"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_cyan4973_xxhash"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_google_flatbuffers/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_fmtlib_fmt/test"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/envoy_api"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/mixerapi_git"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_envoyproxy_protoc_gen_validate"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_google_googleapis"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_github_cncf_udpa"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 istio-proxy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="istio-proxy/fast">
+				<Option output="/home/gocode/code/src/istio.io/proxy/cmake-build-debug/istio-proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gocode/code/src/istio.io/proxy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNULL_PLUGIN"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/."/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./extensions"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/bazel-out/k8-fastbuild/bin/external/envoy"/>
+					<Add directory="/root/.cache/bazel/_bazel_root/aaca9b750b6220c6a64e0639e456b3d4/external/proxy_wasm_cpp_host"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/source"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/envoy/api/wasm/cpp"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/boringssl/src/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_gabime_spdlog/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_c_ares_c_ares"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_absl"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_cel_cpp"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_google_protobuf/src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_fmtlib_fmt/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_eile_tclap/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_grpc_grpc/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_envoyproxy_protoc_gen_validate"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_tencent_rapidjson/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_datadog_dd_opentracing_cpp/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_libevent_libevent/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_mirror_tclap/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_grpc_grpc"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_circonus_labs_libcircllhist/src"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_nodejs_http_parser"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_nghttp2_nghttp2/lib/includes"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_cyan4973_xxhash"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_google_flatbuffers/include"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-proxy/external/com_github_fmtlib_fmt/test"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/envoy_api"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/mixerapi_git"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_envoyproxy_protoc_gen_validate"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_google_googleapis"/>
+					<Add directory="/home/gocode/code/src/istio.io/proxy/./bazel-bin/external/com_github_cncf_udpa"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 istio-proxy/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gocode/code/src/istio.io/proxy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gocode/code/src/istio.io/proxy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/access_log_policy/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/access_log_policy/plugin.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/access_log_policy/plugin.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/context.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/context.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/istio_dimensions_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/proto_util.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/proto_util.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/proto_util_speed_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/proto_util_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/util.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/util.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/util_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/wasm/json_util.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/wasm/json_util.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/plugin.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/plugin.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/metrics.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/metrics.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/utils.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/utils.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/utils_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/edge_reporter.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/edge_reporter.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/edge_reporter_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/mesh_edges_service_client.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/mesh_edges_service_client.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/exporter.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/exporter.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/logger.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/logger.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/logger_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/record.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/record.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/registry.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/registry.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/registry_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/stackdriver.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/stackdriver.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stackdriver/stackdriver_plugin_factory.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stats/plugin.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stats/plugin.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/stats/plugin_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/extensions/wasm/wasm.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/alpn_filter.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/alpn_filter.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/alpn_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/config_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authenticator_base.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authenticator_base.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authenticator_base_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authn_utils.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authn_utils.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authn_utils_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/filter_context.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/filter_context.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/filter_context_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_factory.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_integration_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/origin_authenticator.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/origin_authenticator.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/origin_authenticator_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/sni_verifier.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/sni_verifier.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/sni_verifier_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/authn.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/authn.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/authn_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/filter_names.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/filter_names.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/utils.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/utils.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/utils/utils_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/istio/utils/attribute_names.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/istio/utils/attribute_names.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/istio/utils/utils.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/istio/utils/utils.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/istio/utils/utils_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
