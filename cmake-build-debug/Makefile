@@ -447,6 +447,60 @@ extensions/common/wasm/json_util.cc.s:
 	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.s
 .PHONY : extensions/common/wasm/json_util.cc.s
 
+extensions/dubboconvert/config.o: extensions/dubboconvert/config.cc.o
+
+.PHONY : extensions/dubboconvert/config.o
+
+# target to build an object file
+extensions/dubboconvert/config.cc.o:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o
+.PHONY : extensions/dubboconvert/config.cc.o
+
+extensions/dubboconvert/config.i: extensions/dubboconvert/config.cc.i
+
+.PHONY : extensions/dubboconvert/config.i
+
+# target to preprocess a source file
+extensions/dubboconvert/config.cc.i:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.i
+.PHONY : extensions/dubboconvert/config.cc.i
+
+extensions/dubboconvert/config.s: extensions/dubboconvert/config.cc.s
+
+.PHONY : extensions/dubboconvert/config.s
+
+# target to generate assembly for a file
+extensions/dubboconvert/config.cc.s:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.s
+.PHONY : extensions/dubboconvert/config.cc.s
+
+extensions/dubboconvert/plugin.o: extensions/dubboconvert/plugin.cc.o
+
+.PHONY : extensions/dubboconvert/plugin.o
+
+# target to build an object file
+extensions/dubboconvert/plugin.cc.o:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o
+.PHONY : extensions/dubboconvert/plugin.cc.o
+
+extensions/dubboconvert/plugin.i: extensions/dubboconvert/plugin.cc.i
+
+.PHONY : extensions/dubboconvert/plugin.i
+
+# target to preprocess a source file
+extensions/dubboconvert/plugin.cc.i:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.i
+.PHONY : extensions/dubboconvert/plugin.cc.i
+
+extensions/dubboconvert/plugin.s: extensions/dubboconvert/plugin.cc.s
+
+.PHONY : extensions/dubboconvert/plugin.s
+
+# target to generate assembly for a file
+extensions/dubboconvert/plugin.cc.s:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.s
+.PHONY : extensions/dubboconvert/plugin.cc.s
+
 extensions/metadata_exchange/config.o: extensions/metadata_exchange/config.cc.o
 
 .PHONY : extensions/metadata_exchange/config.o
@@ -1446,6 +1500,87 @@ src/envoy/http/authn/peer_authenticator_test.cc.s:
 	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.s
 .PHONY : src/envoy/http/authn/peer_authenticator_test.cc.s
 
+src/envoy/tcp/dubbotest/config.o: src/envoy/tcp/dubbotest/config.cc.o
+
+.PHONY : src/envoy/tcp/dubbotest/config.o
+
+# target to build an object file
+src/envoy/tcp/dubbotest/config.cc.o:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o
+.PHONY : src/envoy/tcp/dubbotest/config.cc.o
+
+src/envoy/tcp/dubbotest/config.i: src/envoy/tcp/dubbotest/config.cc.i
+
+.PHONY : src/envoy/tcp/dubbotest/config.i
+
+# target to preprocess a source file
+src/envoy/tcp/dubbotest/config.cc.i:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.i
+.PHONY : src/envoy/tcp/dubbotest/config.cc.i
+
+src/envoy/tcp/dubbotest/config.s: src/envoy/tcp/dubbotest/config.cc.s
+
+.PHONY : src/envoy/tcp/dubbotest/config.s
+
+# target to generate assembly for a file
+src/envoy/tcp/dubbotest/config.cc.s:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.s
+.PHONY : src/envoy/tcp/dubbotest/config.cc.s
+
+src/envoy/tcp/dubbotest/metadata_exchange.o: src/envoy/tcp/dubbotest/metadata_exchange.cc.o
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.o
+
+# target to build an object file
+src/envoy/tcp/dubbotest/metadata_exchange.cc.o:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.cc.o
+
+src/envoy/tcp/dubbotest/metadata_exchange.i: src/envoy/tcp/dubbotest/metadata_exchange.cc.i
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.i
+
+# target to preprocess a source file
+src/envoy/tcp/dubbotest/metadata_exchange.cc.i:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.i
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.cc.i
+
+src/envoy/tcp/dubbotest/metadata_exchange.s: src/envoy/tcp/dubbotest/metadata_exchange.cc.s
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.s
+
+# target to generate assembly for a file
+src/envoy/tcp/dubbotest/metadata_exchange.cc.s:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.s
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange.cc.s
+
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.o: src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.o
+
+# target to build an object file
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o
+
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.i: src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.i
+
+# target to preprocess a source file
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i
+
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.s: src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s
+
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.s
+
+# target to generate assembly for a file
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s:
+	$(MAKE) -f CMakeFiles/istio-proxy.dir/build.make CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s
+.PHONY : src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s
+
 src/envoy/tcp/forward_downstream_sni/config.o: src/envoy/tcp/forward_downstream_sni/config.cc.o
 
 .PHONY : src/envoy/tcp/forward_downstream_sni/config.o
@@ -2085,6 +2220,12 @@ help:
 	@echo "... extensions/common/wasm/json_util.o"
 	@echo "... extensions/common/wasm/json_util.i"
 	@echo "... extensions/common/wasm/json_util.s"
+	@echo "... extensions/dubboconvert/config.o"
+	@echo "... extensions/dubboconvert/config.i"
+	@echo "... extensions/dubboconvert/config.s"
+	@echo "... extensions/dubboconvert/plugin.o"
+	@echo "... extensions/dubboconvert/plugin.i"
+	@echo "... extensions/dubboconvert/plugin.s"
 	@echo "... extensions/metadata_exchange/config.o"
 	@echo "... extensions/metadata_exchange/config.i"
 	@echo "... extensions/metadata_exchange/config.s"
@@ -2196,6 +2337,15 @@ help:
 	@echo "... src/envoy/http/authn/peer_authenticator_test.o"
 	@echo "... src/envoy/http/authn/peer_authenticator_test.i"
 	@echo "... src/envoy/http/authn/peer_authenticator_test.s"
+	@echo "... src/envoy/tcp/dubbotest/config.o"
+	@echo "... src/envoy/tcp/dubbotest/config.i"
+	@echo "... src/envoy/tcp/dubbotest/config.s"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange.o"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange.i"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange.s"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange_initial_header.o"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange_initial_header.i"
+	@echo "... src/envoy/tcp/dubbotest/metadata_exchange_initial_header.s"
 	@echo "... src/envoy/tcp/forward_downstream_sni/config.o"
 	@echo "... src/envoy/tcp/forward_downstream_sni/config.i"
 	@echo "... src/envoy/tcp/forward_downstream_sni/config.s"

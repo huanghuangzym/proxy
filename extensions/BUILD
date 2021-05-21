@@ -72,6 +72,30 @@ envoy_wasm_cc_binary(
 )
 
 envoy_wasm_cc_binary(
+    name = "dubboconvert.wasm",
+    srcs = [
+        "//extensions/common:context.cc",
+        "//extensions/common:context.h",
+        "//extensions/common:proto_util.cc",
+        "//extensions/common:proto_util.h",
+        "//extensions/common:util.cc",
+        "//extensions/common:util.h",
+        "//extensions/common/wasm:base64.h",
+        "//extensions/dubboconvert:plugin.cc",
+        "//extensions/dubboconvert:plugin.h",
+    ],
+    copts = ["-UNULL_PLUGIN"],
+    deps = [
+        "//extensions/common:node_info_fb_cc",
+        "//extensions/common/wasm:json_util",
+        "//external:abseil_strings",
+        "//external:abseil_time",
+        "@proxy_wasm_cpp_sdk//:proxy_wasm_intrinsics_full",
+        "@proxy_wasm_cpp_sdk//contrib:contrib_lib",
+    ],
+)
+
+envoy_wasm_cc_binary(
     name = "attributegen.wasm",
     srcs = [
         "//extensions/attributegen:plugin.cc",

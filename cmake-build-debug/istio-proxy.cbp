@@ -210,6 +210,15 @@
 		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/common/wasm/json_util.h">
 			<Option target="istio-proxy"/>
 		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/plugin.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/plugin.h">
+			<Option target="istio-proxy"/>
+		</Unit>
 		<Unit filename="/home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/config.cc">
 			<Option target="istio-proxy"/>
 		</Unit>
@@ -376,6 +385,24 @@
 			<Option target="istio-proxy"/>
 		</Unit>
 		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator_test.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/config.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/config.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange.h">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc">
+			<Option target="istio-proxy"/>
+		</Unit>
+		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.h">
 			<Option target="istio-proxy"/>
 		</Unit>
 		<Unit filename="/home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/config.cc">

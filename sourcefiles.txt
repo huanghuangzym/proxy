@@ -4,6 +4,9 @@ src/istio/utils/attribute_names.cc
 src/envoy/tcp/sni_verifier/sni_verifier_test.cc
 src/envoy/tcp/sni_verifier/sni_verifier.cc
 src/envoy/tcp/sni_verifier/config.cc
+src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc
+src/envoy/tcp/dubbotest/metadata_exchange.cc
+src/envoy/tcp/dubbotest/config.cc
 src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc
 src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc
 src/envoy/tcp/forward_downstream_sni/config.cc
@@ -65,6 +68,8 @@ extensions/stackdriver/edges/edge_reporter.cc
 extensions/stackdriver/edges/edge_reporter_test.cc
 extensions/attributegen/plugin.cc
 extensions/attributegen/plugin_test.cc
+extensions/dubboconvert/plugin.cc
+extensions/dubboconvert/config.cc
 extensions/access_log_policy/plugin.cc
 extensions/access_log_policy/config.cc
 extensions/metadata_exchange/plugin.cc

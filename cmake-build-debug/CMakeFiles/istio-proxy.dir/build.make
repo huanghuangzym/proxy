@@ -135,9 +135,48 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/config.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/sni_verifier/config.cc -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/config.cc.s
 
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o: CMakeFiles/istio-proxy.dir/flags.make
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o: ../src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc > CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.i
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.s
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o: CMakeFiles/istio-proxy.dir/flags.make
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o: ../src/envoy/tcp/dubbotest/metadata_exchange.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange.cc
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange.cc > CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.i
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/metadata_exchange.cc -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.s
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o: ../src/envoy/tcp/dubbotest/config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/config.cc
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/config.cc > CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.i
+
+CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/dubbotest/config.cc -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.s
+
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o: ../src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.i: cmake_force
@@ -150,7 +189,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstre
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o: ../src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.i: cmake_force
@@ -163,7 +202,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstre
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o: ../src/envoy/tcp/forward_downstream_sni/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/forward_downstream_sni/config.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.i: cmake_force
@@ -176,7 +215,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.s: cma
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.o: ../src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_test.cc.i: cmake_force
@@ -189,7 +228,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_tes
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.o: ../src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_initial_header.cc.i: cmake_force
@@ -202,7 +241,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange_ini
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.o: ../src/envoy/tcp/metadata_exchange/metadata_exchange.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/metadata_exchange.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.i: cmake_force
@@ -215,7 +254,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/metadata_exchange.cc.
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.o: ../src/envoy/tcp/metadata_exchange/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/metadata_exchange/config.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.i: cmake_force
@@ -228,7 +267,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/metadata_exchange/config.cc.s: cmake_fo
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.o: ../src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite.cc.i: cmake_force
@@ -241,7 +280,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.o: ../src/envoy/tcp/tcp_cluster_rewrite/config_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.i: cmake_force
@@ -254,7 +293,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config_test.cc.s: c
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.o: ../src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite_test.cc.i: cmake_force
@@ -267,7 +306,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/tcp_cluster_rewrite
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.o: ../src/envoy/tcp/tcp_cluster_rewrite/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/tcp/tcp_cluster_rewrite/config.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.i: cmake_force
@@ -280,7 +319,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/tcp/tcp_cluster_rewrite/config.cc.s: cmake_
 
 CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.o: ../src/envoy/extensions/wasm/wasm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/extensions/wasm/wasm.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.i: cmake_force
@@ -293,7 +332,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/extensions/wasm/wasm.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.o: ../src/envoy/utils/utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/utils/utils.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.i: cmake_force
@@ -306,7 +345,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/utils/utils.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.o: ../src/envoy/utils/authn.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/utils/authn.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.i: cmake_force
@@ -319,7 +358,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/utils/authn.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.o: ../src/envoy/utils/filter_names.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/utils/filter_names.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.i: cmake_force
@@ -332,7 +371,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/utils/filter_names.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.o: ../src/envoy/utils/utils_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/utils/utils_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.i: cmake_force
@@ -345,7 +384,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/utils/utils_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.o: ../src/envoy/utils/authn_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/utils/authn_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.i: cmake_force
@@ -358,7 +397,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/utils/authn_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.o: ../src/envoy/http/authn/http_filter_integration_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_integration_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.i: cmake_force
@@ -371,7 +410,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_integration_test.cc.
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.o: ../src/envoy/http/authn/authenticator_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authenticator_base.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.i: cmake_force
@@ -384,7 +423,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base.cc.s: cmake_f
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.o: ../src/envoy/http/authn/http_filter_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.i: cmake_force
@@ -397,7 +436,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_test.cc.s: cmake_for
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.o: ../src/envoy/http/authn/origin_authenticator_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/origin_authenticator_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.i: cmake_force
@@ -410,7 +449,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator_test.cc.s: 
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.o: ../src/envoy/http/authn/http_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.i: cmake_force
@@ -423,7 +462,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.o: ../src/envoy/http/authn/http_filter_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/http_filter_factory.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.i: cmake_force
@@ -436,7 +475,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/http_filter_factory.cc.s: cmake_
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.o: ../src/envoy/http/authn/authenticator_base_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authenticator_base_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.i: cmake_force
@@ -449,7 +488,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authenticator_base_test.cc.s: cm
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.o: ../src/envoy/http/authn/peer_authenticator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.i: cmake_force
@@ -462,7 +501,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator.cc.s: cmake_f
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.o: ../src/envoy/http/authn/peer_authenticator_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/peer_authenticator_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.i: cmake_force
@@ -475,7 +514,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/peer_authenticator_test.cc.s: cm
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.o: ../src/envoy/http/authn/filter_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/filter_context.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.i: cmake_force
@@ -488,7 +527,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.o: ../src/envoy/http/authn/filter_context_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/filter_context_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.i: cmake_force
@@ -501,7 +540,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/filter_context_test.cc.s: cmake_
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.o: ../src/envoy/http/authn/authn_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authn_utils.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.i: cmake_force
@@ -514,7 +553,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.o: ../src/envoy/http/authn/origin_authenticator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/origin_authenticator.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.i: cmake_force
@@ -527,7 +566,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/origin_authenticator.cc.s: cmake
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.o: ../src/envoy/http/authn/authn_utils_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/authn/authn_utils_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.i: cmake_force
@@ -540,7 +579,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/authn/authn_utils_test.cc.s: cmake_for
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.o: ../src/envoy/http/alpn/alpn_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/alpn_filter.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.i: cmake_force
@@ -553,7 +592,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_filter.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.o: ../src/envoy/http/alpn/alpn_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/alpn_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.i: cmake_force
@@ -566,7 +605,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/alpn_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.o: ../src/envoy/http/alpn/config_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/config_test.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.i: cmake_force
@@ -579,7 +618,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.o: ../src/envoy/http/alpn/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.o -c /home/gocode/code/src/istio.io/proxy/src/envoy/http/alpn/config.cc
 
 CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.i: cmake_force
@@ -592,7 +631,7 @@ CMakeFiles/istio-proxy.dir/src/envoy/http/alpn/config.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.o: ../extensions/common/proto_util_speed_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/proto_util_speed_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.i: cmake_force
@@ -605,7 +644,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/proto_util_speed_test.cc.s: cmake_f
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.o: ../extensions/common/proto_util_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/proto_util_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.i: cmake_force
@@ -618,7 +657,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/proto_util_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/util.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/util.cc.o: ../extensions/common/util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/util.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/util.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/util.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/util.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/util.cc.i: cmake_force
@@ -631,7 +670,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/util.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.o: ../extensions/common/wasm/json_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/wasm/json_util.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.i: cmake_force
@@ -644,7 +683,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/wasm/json_util.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.o: ../extensions/common/istio_dimensions_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/istio_dimensions_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.i: cmake_force
@@ -657,7 +696,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/istio_dimensions_test.cc.s: cmake_f
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.o: ../extensions/common/proto_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/proto_util.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.i: cmake_force
@@ -670,7 +709,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/proto_util.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.o: ../extensions/common/util_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/util_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.i: cmake_force
@@ -683,7 +722,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/util_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/common/context.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/common/context.cc.o: ../extensions/common/context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/context.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/common/context.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/common/context.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/common/context.cc
 
 CMakeFiles/istio-proxy.dir/extensions/common/context.cc.i: cmake_force
@@ -696,7 +735,7 @@ CMakeFiles/istio-proxy.dir/extensions/common/context.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.o: ../extensions/stats/plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stats/plugin.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.i: cmake_force
@@ -709,7 +748,7 @@ CMakeFiles/istio-proxy.dir/extensions/stats/plugin.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.o: ../extensions/stats/plugin_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stats/plugin_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.i: cmake_force
@@ -722,7 +761,7 @@ CMakeFiles/istio-proxy.dir/extensions/stats/plugin_test.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.o: ../extensions/stackdriver/common/utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/utils.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.i: cmake_force
@@ -735,7 +774,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.o: ../extensions/stackdriver/common/metrics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/metrics.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.i: cmake_force
@@ -748,7 +787,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/metrics.cc.s: cmake_for
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.o: ../extensions/stackdriver/common/utils_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/common/utils_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.i: cmake_force
@@ -761,7 +800,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/common/utils_test.cc.s: cmake_
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.o: ../extensions/stackdriver/log/logger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/logger.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.i: cmake_force
@@ -774,7 +813,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.o: ../extensions/stackdriver/log/logger_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/logger_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.i: cmake_force
@@ -787,7 +826,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/logger_test.cc.s: cmake_fo
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.o: ../extensions/stackdriver/log/exporter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/log/exporter.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.i: cmake_force
@@ -800,7 +839,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/log/exporter.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.o: ../extensions/stackdriver/stackdriver_plugin_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/stackdriver_plugin_factory.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.i: cmake_force
@@ -813,7 +852,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver_plugin_factory.cc.
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.o: ../extensions/stackdriver/metric/record.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/record.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.i: cmake_force
@@ -826,7 +865,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/record.cc.s: cmake_forc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.o: ../extensions/stackdriver/metric/registry.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/registry.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.i: cmake_force
@@ -839,7 +878,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry.cc.s: cmake_fo
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.o: ../extensions/stackdriver/metric/registry_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/metric/registry_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.i: cmake_force
@@ -852,7 +891,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/metric/registry_test.cc.s: cma
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.o: ../extensions/stackdriver/stackdriver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/stackdriver.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.i: cmake_force
@@ -865,7 +904,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/stackdriver.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.o: ../extensions/stackdriver/edges/mesh_edges_service_client.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/mesh_edges_service_client.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_client.cc.i: cmake_force
@@ -878,7 +917,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/mesh_edges_service_clien
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.o: ../extensions/stackdriver/edges/edge_reporter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/edge_reporter.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.i: cmake_force
@@ -891,7 +930,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter.cc.s: cmak
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o: ../extensions/stackdriver/edges/edge_reporter_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/stackdriver/edges/edge_reporter_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.i: cmake_force
@@ -904,7 +943,7 @@ CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.s:
 
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o: ../extensions/attributegen/plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin.cc
 
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.i: cmake_force
@@ -917,7 +956,7 @@ CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o: ../extensions/attributegen/plugin_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin_test.cc
 
 CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.i: cmake_force
@@ -928,9 +967,35 @@ CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/extensions/attributegen/plugin_test.cc -o CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.s
 
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o: CMakeFiles/istio-proxy.dir/flags.make
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o: ../extensions/dubboconvert/plugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/plugin.cc
+
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/plugin.cc > CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.i
+
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/plugin.cc -o CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.s
+
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o: ../extensions/dubboconvert/config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/config.cc
+
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/config.cc > CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.i
+
+CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gocode/code/src/istio.io/proxy/extensions/dubboconvert/config.cc -o CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.s
+
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o: ../extensions/access_log_policy/plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/access_log_policy/plugin.cc
 
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.i: cmake_force
@@ -943,7 +1008,7 @@ CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o: ../extensions/access_log_policy/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/access_log_policy/config.cc
 
 CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.i: cmake_force
@@ -956,7 +1021,7 @@ CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o: ../extensions/metadata_exchange/plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/plugin.cc
 
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.i: cmake_force
@@ -969,7 +1034,7 @@ CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.s: cmake_force
 
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o: CMakeFiles/istio-proxy.dir/flags.make
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o: ../extensions/metadata_exchange/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o -c /home/gocode/code/src/istio.io/proxy/extensions/metadata_exchange/config.cc
 
 CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.i: cmake_force
@@ -988,6 +1053,9 @@ istio__proxy_OBJECTS = \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/sni_verifier_test.cc.o" \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/sni_verifier.cc.o" \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/config.cc.o" \
+"CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o" \
+"CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o" \
+"CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o" \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o" \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o" \
 "CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o" \
@@ -1049,6 +1117,8 @@ istio__proxy_OBJECTS = \
 "CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o" \
 "CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o" \
 "CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o" \
+"CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o" \
+"CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o" \
 "CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o" \
 "CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o" \
 "CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o" \
@@ -1063,6 +1133,9 @@ istio-proxy: CMakeFiles/istio-proxy.dir/src/istio/utils/attribute_names.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/sni_verifier_test.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/sni_verifier.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/sni_verifier/config.cc.o
+istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange_initial_header.cc.o
+istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/metadata_exchange.cc.o
+istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/dubbotest/config.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/forward_downstream_sni_test.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/src/envoy/tcp/forward_downstream_sni/config.cc.o
@@ -1124,13 +1197,15 @@ istio-proxy: CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_report
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/stackdriver/edges/edge_reporter_test.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/attributegen/plugin_test.cc.o
+istio-proxy: CMakeFiles/istio-proxy.dir/extensions/dubboconvert/plugin.cc.o
+istio-proxy: CMakeFiles/istio-proxy.dir/extensions/dubboconvert/config.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/access_log_policy/plugin.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/access_log_policy/config.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/plugin.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/extensions/metadata_exchange/config.cc.o
 istio-proxy: CMakeFiles/istio-proxy.dir/build.make
 istio-proxy: CMakeFiles/istio-proxy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable istio-proxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX executable istio-proxy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/istio-proxy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
