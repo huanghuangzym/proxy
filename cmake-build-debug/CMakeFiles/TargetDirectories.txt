@@ -1,0 +1,3 @@
+/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles/istio-proxy.dir
+/home/gocode/code/src/istio.io/proxy/cmake-build-debug/CMakeFiles/edit_cache.dir
